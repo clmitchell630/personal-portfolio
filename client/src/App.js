@@ -1,9 +1,9 @@
+
+//production version
+
 import React, { Component } from 'react';
-import Nav from "./components/Nav";
 import logo from './logo.svg';
 import './App.css';
-import { Jumbotron } from './components/Jumbotron';
-import { Container } from './components/Grid';
 
 class App extends Component {
   state = {
@@ -17,20 +17,50 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav
-          handlePageChange={this.handlePageChange}
-          currentPage={this.currentPage}
-        />
-        <Jumbotron
-          fluid
-          size="10"
-          background="2"
-          >
-          <Container>
-            <h1>hello</h1>
-            <p style={{ "font-size": "24px" }}>Yeah, currently my site is SUPER ugly. It is under construction/using it for React Components experimentation :)</p>
-          </Container>
-        </Jumbotron>
+        <div className="container hd-style">
+          <h1>
+            Under Construction
+          </h1>
+          <h2>
+            We're nearly there!
+          </h2>
+        </div>
+        <div className="progressbar-br">
+          <span className="loading-br"></span>
+          <div className="load-br">
+            <p>
+              <span className="pur">if</span>  (
+              <span className="bluli"> !</span>
+              <span className="redish">finished</span>
+              <span className="bluli"> === </span>
+              <span className="orng">true</span> ) {'{'}
+            </p>
+            <p>
+              <span className="blu center-me">buildSite</span>( );
+            </p>
+            <p>
+              {'}'}
+            </p>
+          </div>
+        </div>
+        <footer>
+          <div class="row justify-content-md-center">
+            <div>
+              <ul class="nav">
+                <li class="nav-item icon-style">
+                  <a class="navLink" role="button"
+                    href="https://www.linkedin.com/in/clmitchell630/" target="_blank"><i
+                      class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="nav-item icon-style">
+                  <a class="navLink" role="button" href="https://github.com/clmitchell630" target="_blank"><i
+                    class="fab fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p>Copyright © www.cmitchell.info 2020</p>
+        </footer>
       </div>
     );
   }
