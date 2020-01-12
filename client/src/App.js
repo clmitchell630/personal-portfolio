@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container hd-style">
+        <div className="container-fluid hd-style">
           <h1>
             Under Construction
           </h1>

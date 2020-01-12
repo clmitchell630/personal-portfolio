@@ -88,7 +88,7 @@ body {
   z-index: -1;
 }
 .load-br{
-  font-size: 14px;
+  font-size: .875rem;
   font-family: Arial;
   font-weight: bold;
   text-align: center;
@@ -116,14 +116,10 @@ body {
   margin-top: 10vh;
   font-family: 'Carrois Gothic SC', sans-serif;
 }
-.hd-style h1 {
-  font-size: 72px;
-}
+
 /* footer */
 .icon-style {
   text-align: center;
-  font-size: 28px;
-  padding: 0 10px 0 10px;
 }
 .navLink {
   color: #333;
@@ -143,4 +139,102 @@ footer {
   font-size: 12px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+  /* link icons */
+  .icon-style {
+    font-size: 1.75rem;
+    padding: 0 10px 0 10px;
+  }
+  /* main header */
+  .hd-style h1 {
+    font-size: 2.5rem;
+  }
+  .hd-style h2 {
+    font-size: 1.5rem;
+  }
+  /* footer */
+  footer {
+    padding-bottom: 2px;
+  }
+  
+  footer p {
+    margin-bottom: 2px;
+  }
+
+  footer div {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  /* link icons */
+  .icon-style {
+    font-size: 1.75rem;
+    padding: 0 10px 0 10px;
+  }
+  /* main header */
+  .hd-style h1 {
+    font-size: 3rem;
+  }
+  .hd-style h2 {
+    font-size: 2rem;
+  }
+  /* footer */
+  footer {
+    padding-bottom: 2px;
+  }
+  
+  footer p {
+    margin-bottom: 2px;
+  }
+
+  footer div {
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 768px){
+  /* link icons */
+  .icon-style {
+    font-size: 1.75rem;
+    padding: 0 10px 0 10px;
+  }
+  /* main header */
+  .hd-style h1 {
+    font-size: 3.5rem;
+  }
+  .hd-style h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  /* link icons */
+  .icon-style {
+    font-size: 1.75rem;
+    padding: 0 10px 0 10px;
+  }
+  /* main header */
+  .hd-style h1 {
+    font-size: 4.5rem;
+  }
+  .hd-style h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  /* link icons */
+  .icon-style {
+    font-size: 1.75rem;
+    padding: 0 10px 0 10px;
+  }
+  /* main header */
+  .hd-style h1 {
+    font-size: 4.5rem;
+  }
+  .hd-style h2 {
+    font-size: 3.5rem;
+  }
 }
