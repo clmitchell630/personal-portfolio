@@ -1,0 +1,59 @@
+/* controls jumbotron's height */
+
+.jumbo-height-1 {
+    height: 10vh;
+}
+
+.jumbo-height-2 {
+    height: 20vh;
+}
+
+.jumbo-height-3 {
+    height: 30vh;
+}
+
+.jumbo-height-4 {
+    height: 40vh;
+}
+
+.jumbo-height-5 {
+    height: 50vh;
+}
+
+.jumbo-height-6 {
+    height: 60vh;
+}
+
+.jumbo-height-7 {
+    height: 70vh;
+}
+
+.jumbo-height-8 {
+    height: 80vh;
+}
+
+.jumbo-height-9 {
+    height: 90vh;
+}
+
+.jumbo-height-10 {
+    height: 100vh;
+}
+
+/* controls jumbotron background */
+
+.jumbo-back-1 {
+    background-color: red;
+}
+
+.jumbo-back-2 {
+    background-color: orange;
+}
+
+.jumbo-back-3 {
+    background-color: yellow;
+}
+
+.jumbo-back-4 {
+    background-color: green;
+}
