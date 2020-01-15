@@ -1,13 +1,10 @@
 
-<<<<<<< HEAD
-//development version
-=======
 //production version
->>>>>>> 3a72537ccb9ca2e9808341c15e0bb368e1539a76
 
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from "./components/Footer";
 
 class App extends Component {
   state = {
@@ -47,24 +44,7 @@ class App extends Component {
             </p>
           </div>
         </div>
-        <footer>
-          <div class="row justify-content-md-center">
-            <div>
-              <ul class="nav">
-                <li class="nav-item icon-style">
-                  <a class="navLink" role="button"
-                    href="https://www.linkedin.com/in/clmitchell630/" target="_blank"><i
-                      class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="nav-item icon-style">
-                  <a class="navLink" role="button" href="https://github.com/clmitchell630" target="_blank"><i
-                    class="fab fa-github"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p>Copyright © www.cmitchell.info 2020</p>
-        </footer>
+        <Footer />
       </div>
     );
   }
