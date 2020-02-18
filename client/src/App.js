@@ -30,11 +30,9 @@ class App extends Component {
           <span className="loading-br"></span>
           <div className="load-br">
             <p>
-              <span className="pur">if</span>  (
+              <span className="pur">while</span>  (
               <span className="bluli"> !</span>
-              <span className="redish">finished</span>
-              <span className="bluli"> === </span>
-              <span className="orng">true</span> ) {'{'}
+              <span className="redish">finished</span> ) {'{'}
             </p>
             <p>
               <span className="blu center-me">buildSite</span>( );
