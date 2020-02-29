@@ -19,7 +19,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-            <p>Copyright © www.cmitchell.info 2020</p>
+            <p>Copyright © www.cmitchell.me 2020</p>
         </footer>
     )
 }
