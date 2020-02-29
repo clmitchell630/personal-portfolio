@@ -21,6 +21,9 @@ class Nav extends Component {
                   <li className="nav-item">
                       <a href="mailto:clmitchell630@gmail" className="nav-link nav-text">E-mail</a>
                   </li>
+                  <li className="nav-item">
+                      <a href="#about" className="nav-link nav-text bookmarks">about</a>
+                  </li>
               </ul>
             </div>
         );

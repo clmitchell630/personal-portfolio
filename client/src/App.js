@@ -47,6 +47,7 @@ class App extends Component {
           color="w"
           fontcolor="default"
           align="center"
+          bookmark="about"
         >
           <About />
         </ContentBox>
