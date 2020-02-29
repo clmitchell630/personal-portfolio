@@ -1,7 +1,6 @@
 import React from "react";
 import "./tech.scss";
-import { Container, Row, Col } from "../Grid";
-import { render } from "react-dom";
+import { Row, Col } from "../Grid";
 
 function Tech() {
     return (
@@ -36,7 +35,7 @@ function Tech() {
                         <li>NPM</li>
                         <li>MongoDB </li>
                         <li>MySQL</li>
-                        <li>MySQL Workbench </li>
+                        <li>MySQL Workbench</li>
                         <li>Git</li>
                         <li>GitHub</li>
                         <li>Git Bash</li>

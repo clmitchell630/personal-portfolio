@@ -11,6 +11,17 @@ footer {
   text-decoration: none;
 }
 .bottom-bdr {
-  padding: 2rem;
+  padding: 1rem;
   border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.icon-style {
+  text-align: center;
+}
+.navLink {
+  color: #333;
+}
+
+.navLink:hover {
+  color: #007bff;
 }
