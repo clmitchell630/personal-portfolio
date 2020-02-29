@@ -11,6 +11,7 @@ import { ContentBox } from "./components/ContentBox";
 import Header from "./components/Header";
 import About from "./components/About";
 import Tech from "./components/Tech";
+
 import headshot from "./img/12-2019_smol_cropped.png";
 
 class App extends Component {
@@ -29,7 +30,6 @@ class App extends Component {
           <Nav />
           <Switch>
             <Route exact path="/" />
-            <Route exact path="/email" />
           </Switch>
         </Router>
         <Jumbotron

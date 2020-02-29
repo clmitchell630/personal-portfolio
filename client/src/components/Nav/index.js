@@ -19,7 +19,7 @@ class Nav extends Component {
                       <a href={resume} target="_blank" className="nav-link nav-text">Resume</a>
                   </li>
                   <li className="nav-item">
-                      <Link to={'/email'} className="nav-link nav-text">E-mail</Link>
+                      <a href="mailto:clmitchell630@gmail" className="nav-link nav-text">E-mail</a>
                   </li>
               </ul>
             </div>
