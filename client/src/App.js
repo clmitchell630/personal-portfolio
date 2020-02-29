@@ -9,8 +9,8 @@ import Footer from "./components/Footer";
 import { Jumbotron } from "./components/Jumbotron";
 import { ContentBox } from "./components/ContentBox";
 import Header from "./components/Header";
+import About from "./components/About";
 import headshot from "./img/12-2019_smol_cropped.png";
-import resume from "./docs/cmresume.pdf";
 
 class App extends Component {
   state = {
@@ -36,26 +36,25 @@ class App extends Component {
           size="9"
           background="5"
         >
-          <Header 
-            img={headshot}        
+          <Header
+            img={headshot}
           />
         </Jumbotron>
         <ContentBox
           title="About Me"
           size="4"
           color="w"
+          fontcolor="default"
+          align="center"
         >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at odio est. Vivamus vehicula aliquet fringilla.
-            Vestibulum at massa vel nisl pulvinar dignissim et at massa. Sed sollicitudin, diam ac rhoncus pharetra,
-            mauris dolor feugiat ipsum, id posuere nisi purus sit amet sem. Vestibulum ultrices ex sem, nec euismod elit
-            pellentesque ut. Donec luctus feugiat acinia. Duis ut diam ac massa mollis porta sed sed quam.
-          </p>
+          <About />
         </ContentBox>
         <ContentBox
           title="Technologies"
           size="4"
           color="2"
+          fontcolor="white"
+          align="center"
         >
 
         </ContentBox>
@@ -63,6 +62,8 @@ class App extends Component {
           title="Portfolio"
           size="5"
           color="w"
+          fontcolor="default"
+          align="center"
         >
           <p>
             content?

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
 .box-1 {
     width: 100%;
     min-height: 10vh;
@@ -63,4 +65,28 @@
 }
 .swatch-color-d {
     background-color: #3a3a3a;
+}
+
+.text-is-center {
+    text-align: center;
+}
+.text-is-left {
+    text-align: left;
+}
+.text-is-right {
+    text-align: right;
+}
+
+.text-color-default {
+    color: rgb(32, 32, 32);
+}
+.text-color-white {
+    color: whitesmoke;
+}
+h2 { 
+    font-size: 3rem;
+    padding-bottom: 3vh;
+}
+.textBox {
+    padding: 5vh;
 }
