@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+.box-1 {
+    width: 100%;
+    min-height: 10vh;
+}
+.box-2 {
+    width: 100%;
+    min-height: 20vh;
+}
+.box-3 {
+    width: 100%;
+    min-height: 30vh;
+}
+.box-4 {
+    width: 100%;
+    min-height: 40vh;
+}
+.box-5 {
+    width: 100%;
+    min-height: 50vh;
+}
+.box-6 {
+    width: 100%;
+    min-height: 60vh;
+}
+.box-7 {
+    width: 100%;
+    min-height: 70vh;
+}
+.box-8 {
+    width: 100%;
+    min-height: 80vh;
+}
+.box-9 {
+    width: 100%;
+    min-height: 90vh;
+}
+.box-10 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* ------ box colors*/
+.swatch-color-1 {
+    background-color: #4F6040;
+}
+.swatch-color-2 {
+    background-color: #59695F;
+}
+.swatch-color-3 {
+    background-color: #BDCEE0;
+}
+.swatch-color-4 {
+    background-color: #3F5465;
+}
+.swatch-color-5 {
+    background-color: #989488;
+}
+.swatch-color-6 {
+    background-color: #FAE3C4;
+}
+.swatch-color-w {
+    background-color: whitesmoke;
+}
+.swatch-color-d {
+    background-color: #3a3a3a;
+}
+
+.text-is-center {
+    text-align: center;
+}
+.text-is-left {
+    text-align: left;
+}
+.text-is-right {
+    text-align: right;
+}
+
+.text-color-default {
+    color: rgb(32, 32, 32);
+}
+.text-color-white {
+    color: whitesmoke;
+}
+h2 { 
+    font-size: 3rem;
+    padding-bottom: 3vh;
+}
+.textBox {
+    padding: 5vh;
+}

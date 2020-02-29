@@ -128,18 +128,7 @@ body {
 .navLink:hover {
   color: #707070;
 }
-footer {
-  width:100%;
-  height: 100px;
-  padding: 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: whitesmoke;
-  font-size: 12px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 @media only screen and (max-width: 600px){
   /* link icons */
