@@ -18,12 +18,10 @@ function Footer() {
                                 <ul class="nav">
                                     <li class="nav-item icon-style">
                                         <a class="navLink" role="button"
-                                            href="https://www.linkedin.com/in/clmitchell630/" target="_blank"><i
-                                                class="fab fa-linkedin-in"></i></a>
+                                            href="https://www.linkedin.com/in/clmitchell630/" target="_blank"><i class="fab fa-linkedin"></i></a>
                                     </li>
                                     <li class="nav-item icon-style">
-                                        <a class="navLink" role="button" href="https://github.com/clmitchell630" target="_blank"><i
-                                            class="fab fa-github"></i></a>
+                                        <a class="navLink" role="button" href="https://github.com/clmitchell630" target="_blank"><i class="fab fa-github-square"></i></a>
                                     </li>
                                 </ul>
                             </div>
