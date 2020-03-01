@@ -1,8 +1,8 @@
 .image-style {
   width: 300px;
   box-shadow: 2px 8px 6px #363a3b;
+}
 
-  &:hover {
-    opacity: 90%;
-  }
+.image-style:hover {
+  opacity: 90%;
 }
