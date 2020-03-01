@@ -1,8 +1,11 @@
+
 .image-style {
   width: 300px;
   box-shadow: 2px 8px 6px #363a3b;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
-
 .image-style:hover {
-  opacity: 90%;
+	opacity: .5;
 }
