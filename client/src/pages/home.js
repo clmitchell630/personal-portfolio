@@ -4,6 +4,7 @@ import { ContentBox } from "../components/ContentBox";
 import Header from "../components/Header";
 import About from "../components/About";
 import Tech from "../components/Tech";
+import PortLinks from "../components/PortfolioLinks";
 
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -50,7 +51,7 @@ function Home() {
                 fontcolor="default"
                 align="center"
             >
-                <p>content?</p>
+                <PortLinks />
             </ContentBox>
 
             <Footer />
