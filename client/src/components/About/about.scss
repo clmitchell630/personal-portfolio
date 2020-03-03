@@ -21,12 +21,17 @@
       padding-top: 5px;
       border-bottom: 1px solid rgb(204, 204, 204);
     }
-
   }
 
   p {
     margin: 0;
-    padding: 0 10vw 5vh 10vw;
+    padding: 0 15vw 5vh 15vw;
+    font-size: 22px;
+
+    @media (max-width: 760px) {
+      font-size:  18px;
+    }
+
   }
-  
+
 }
