@@ -11,6 +11,15 @@
     margin: 0;
     padding: 5vh 0 2.5vh 0;
     text-align: center;
+
+    &:after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 100px;
+      padding-top: 5px;
+      border-bottom: 1px solid rgb(204, 204, 204);
+    }
   }
 
   p {
