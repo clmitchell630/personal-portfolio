@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
+header{
+    @media (max-width: 760px) {
+        background-color: #85978c;
+    }
+}
 h1 {
     font-size: 5em;
     font-family: 'Roboto', sans-serif;
