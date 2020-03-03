@@ -9,41 +9,15 @@ import PortLinks from "../components/PortfolioLinks";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-import headshot from "../utils/img/12-2019_smol_cropped.png";
-
-
 function Home() {
     return (
         <div>
             <Nav />
-
-            <Jumbotron
-                fluid="fluid"
-                size="9"
-                background="5"
-            >
-                <Header
-                    img={headshot}
-                />
+            <Jumbotron fluid="fluid">
+                <Header/>
             </Jumbotron>
-            <ContentBox
-                title="About Me"
-                size="4"
-                color="w"
-                fontcolor="default"
-                align="center"
-                bookmark="about"
-            >
-                <About />
-            </ContentBox>
-            <ContentBox
-                size="4"
-                color="2"
-                fontcolor="white"
-                align="center"
-            >
-                <Tech />
-            </ContentBox>
+            <About />
+            <Tech />
             <ContentBox
                 title="Portfolio"
                 size="5"

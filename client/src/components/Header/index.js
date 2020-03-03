@@ -1,13 +1,15 @@
 import React from "react";
 import "./header.scss";
 
-function Header ( { img }) {
+import headshot from "../../utils/img/12-2019_smol_cropped.png";
+
+function Header () {
     return(
-        <div className="hdr-style">
+        <header className="hdr-style">
             <h1>Chris Mitchell</h1>
             <h2>Full Stack Web Developer</h2>
-            <img src={img} alt="It's a picture of Chris..." className="pic-style"/>
-        </div>
+            <img src={headshot} alt="It's a picture of Chris..." className="pic-style"/>
+        </header>
     )
 }
 

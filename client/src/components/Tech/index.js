@@ -1,49 +1,30 @@
 import React from "react";
+
 import "./tech.scss";
-import { Row, Col } from "../Grid";
 
 function Tech() {
     return (
-        <div className="tech-style">
-            <Row>
-                <Col size="4">
-                    <i class="fas fa-code"></i>
-                    <h3>Languages</h3>
-                    <ul className="list-unstyled">
-                        <li>HTML5/Bootstrap</li>
-                        <li>CSS3/SCSS</li>
-                        <li>Javascript/Jquery</li>
-                        <li>SQL</li>
-                    </ul>
-                </Col>
-                <Col size="4">
-                    <i class="fas fa-vector-square"></i>
-                    <h3>Frameworks</h3>
-                    <ul className="list-unstyled">
-                        <li>ReactJS</li>
-                        <li>Express.js</li>
-                        <li>Mongoose</li>
-                        <li>Sequelize</li>
-                    </ul>
-                </Col>
-                <Col size="4">
-                    <i class="fas fa-tools"></i>
-                    <h3>Tools</h3>
-                    <ul className="list-unstyled">
-                        <li>VS Code</li>
-                        <li>Node.js</li>
-                        <li>NPM</li>
-                        <li>MongoDB </li>
-                        <li>MySQL</li>
-                        <li>MySQL Workbench</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>Git Bash</li>
-                    </ul>
-                </Col>
-            </Row>
-        </div>
-    )
+        <section className="tech-style">
+            <i className="fas fa-code a-i">
+                <h3 className="a-h">Languages</h3>
+            </i>
+            <p className="a-l">
+                HTML5/Bootstrap, CSS3/SCSS, Javascript/Jquery, SQL.
+            </p>
+            <i className="fas fa-vector-square b-i">
+                <h3 className="b-h">Frameworks</h3>
+            </i>
+            <p className="b-l">
+                ReactJS, Express.js, Mongoose, Sequelize.
+            </p>
+            <i className="fas fa-tools c-i">
+                <h3 className="c-h">Tools</h3>
+            </i>
+            <p className="c-l">
+                VS Code, Node.js, NPM, MongoDB, MySQL, MySQL Workbench, Git, GitHub, Git Bash.
+            </p>
+        </section>
+    );
 }
 
 export default Tech;

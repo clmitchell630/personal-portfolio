@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Container, Row, Col } from "../Grid";
 
-import "./portlinks.css";
+import "./portlinks.scss";
 import lfg from "../../utils/img/lfg.png";
 import bcp from "../../utils/img/bcp.png";
 
