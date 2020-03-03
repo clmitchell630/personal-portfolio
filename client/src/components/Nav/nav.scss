@@ -5,9 +5,11 @@
   font-size: 2.5rem;
   background-color: #59695f;
   font-family: "Roboto", sans-serif;
+
   @media (max-width: 600px) {
     font-size: 8vw;
   }
+
 }
 
 .nav-text {
@@ -17,6 +19,7 @@
   &:hover {
     text-decoration: none;
   }
+  
 }
 
 .nav-text:hover,

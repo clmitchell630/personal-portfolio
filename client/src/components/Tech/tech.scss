@@ -9,32 +9,41 @@
   font-family: "Roboto", sans-serif;
   color: #f5f5f5;
   text-align: center;
+
   i {
     font-size: 3em;
   }
+
   h3 {
     font-size: 0.8em;
+
     @media (max-width: 600px) {
       font-size: 15vw;
     }
+
   }
+
   p {
     font-size: 1.2em;
     color: #c7c7c7;
   }
+
   //content padding
   .a-i {
     padding: 8vh 0 2vh 0;
   }
+
   .a-l,
   .b-l {
     margin: 0;
     padding: 0 10vw;
   }
+
   .b-i,
   .c-i {
     padding: 5vh 0 2vh 0;
   }
+
   .c-l {
     margin: 0;
     padding: 0 10vw 8vh 10vw;
@@ -60,6 +69,7 @@
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     //children
+
     .a-i {
       grid-row: 1/2;
       grid-column: 2/3;
@@ -110,5 +120,7 @@
       margin: 0;
       padding: 2vh 0 2vh 0;
     }
+
   }
+  
 }

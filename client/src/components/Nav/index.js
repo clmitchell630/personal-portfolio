@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./nav.scss";
-
 import resume from "../../utils/docs/cmresume.pdf";
 
 function Nav() {

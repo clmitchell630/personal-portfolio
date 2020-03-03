@@ -1,6 +1,6 @@
 import React from "react";
-import "./header.scss";
 
+import "./header.scss";
 import headshot from "../../utils/img/12-2019_smol_cropped.png";
 
 function Header () {

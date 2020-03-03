@@ -4,17 +4,22 @@ h1 {
     font-size: 5em;
     font-family: 'Roboto', sans-serif;
     padding-top: 10vh;
+
     @media (max-width: 600px) {
         font-size: 20vw;
     }
+    
 }
 
 h2 {
     font-size: 3em;
+
     @media (max-width: 600px) {
         font-size: 10vw;
     }
+
 }
+
 .hdr-style {
     min-height: 92vh;
     text-align: center;
