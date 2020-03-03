@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import "./App.css";
 import Home from "./pages/home";
-import NotFound from "./pages/notfound";
+import Unknown from "./pages/unknown";
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="*" component={NotFound} />
+            <Route path="*" component={Unknown} />
           </Switch>
         </Router>
       </div>
