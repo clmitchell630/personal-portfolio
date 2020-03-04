@@ -1,59 +1,97 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
-.nav-style {
+nav {
   width: 100%;
-  font-size: 2.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 5vh;
   background-color: #59695f;
   font-family: "Roboto", sans-serif;
 
-  @media (max-width: 600px) {
-    font-size: 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    width: -webkit-max-content;
+
+    li {
+      list-style-type: none;
+      padding: 10px;
+
+      .nav-text {
+        color: whitesmoke;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      .nav-text:hover,
+      .nav-text:active {
+        color: whitesmoke;
+      }
+
+      .nav-text:after,
+      .nav-text:before {
+        backface-visibility: hidden;
+        border: 1px solid rgba(#fff, 0);
+        bottom: 0px;
+        content: " ";
+        display: block;
+        margin: 0 auto;
+        transition: all 280ms ease-in-out;
+        width: 50%;
+      }
+
+      .nav-text:hover:after,
+      .nav-text:hover:before {
+        backface-visibility: hidden;
+        border-color: #fff;
+        transition: width 350ms ease-in-out;
+        width: 100%;
+      }
+
+      .nav-text:hover:before {
+        bottom: auto;
+        top: 0;
+        width: 100%;
+      }
+
+    }
+
   }
 
-}
-
-.nav-text {
-  color: whitesmoke;
-  padding: 0.5rem 5rem;
-
-  &:hover {
-    text-decoration: none;
+  @media (min-width: 600px) and (max-width: 960px){
+    font-size: 4vh;
   }
-  
-}
 
-.nav-text:hover,
-.nav-text:active {
-  color: whitesmoke;
-}
+  @media (min-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    ul {
+      justify-self: center;
 
-.nav-text:after,
-.nav-text:before {
-  backface-visibility: hidden;
-  border: 1px solid rgba(#fff, 0);
-  bottom: 0px;
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  transition: all 280ms ease-in-out;
-  width: 50%;
-}
+      li {
+        padding: 0;
+      }
 
-.nav-text:hover:after,
-.nav-text:hover:before {
-  backface-visibility: hidden;
-  border-color: #fff;
-  transition: width 350ms ease-in-out;
-  width: 100%;
-}
+    }
 
-.nav-text:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 100%;
-}
+    .a-l {
+      grid-column: 2/3;
+    }
 
-.bookmarks:active {
-  transition: 280ms ease-in;
+    .b-l {
+      grid-column: 3/4;
+    }
+
+    .c-l {
+      grid-column: 4/5;
+    }
+
+  }
+
 }
