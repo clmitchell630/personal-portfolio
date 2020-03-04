@@ -6,16 +6,20 @@ import resume from "../../utils/docs/cmresume.pdf";
 
 function Nav() {
     return (
-        <nav className="nav-style">
-            <ul className="nav justify-content-center">
-                <li className="nav-item">
-                    <Link to={'/'} className="nav-link nav-text">Home</Link>
+        <nav>
+            <ul className="a-l">
+                <li>
+                    <Link to={'/'} className="nav-text">Home</Link>
                 </li>
-                <li className="nav-item">
-                    <a href={resume} target="_blank" className="nav-link nav-text">Resume</a>
+            </ul>
+            <ul className="b-l">
+                <li>
+                    <a href={resume} target="_blank" className="nav-text">Resume</a>
                 </li>
-                <li className="nav-item">
-                    <a href="mailto:clmitchell630@gmail" className="nav-link nav-text">E-mail</a>
+            </ul>
+            <ul className="c-l">
+                <li>
+                    <a href="mailto:clmitchell630@gmail" className="nav-text">E-mail</a>
                 </li>
             </ul>
         </nav>
