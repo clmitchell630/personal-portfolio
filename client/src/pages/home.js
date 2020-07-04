@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 function Home() {
     return (
         <div>
-            <Nav color="green" />
+            <Nav color="green"/>
             <Header/>
             <About />
             <Tech />

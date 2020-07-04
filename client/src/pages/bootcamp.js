@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function Bootcamp (){
     return (
         <main>
-            <Nav color="white" />
+            <Nav color="white"/>
             <BootContent />
             <Footer />
         </main>

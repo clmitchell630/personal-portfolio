@@ -7,7 +7,7 @@ function About() {
         <section className="about-style">
             <h2>About Me</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis sagittis dignissim. Praesent congue quis leo et fringilla. Etiam sagittis neque non fermentum blandit. Phasellus laoreet ornare commodo. Duis scelerisque lacus ut justo mollis porta. Integer sollicitudin, urna nec dapibus pharetra, quam diam tempus ante, eget congue dui turpis vel neque. Sed et dapibus leo. Vestibulum eu sem quis odio egestas lobortis. Mauris molestie neque id diam volutpat cursus. Mauris sit amet laoreet mi. Ut at euismod libero. Nullam dictum fermentum neque quis pretium. Integer ut bibendum lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et nibh et ex maximus faucibus blandit a arcu. Morbi pharetra purus ac sollicitudin rhoncus.
+                Full Stack Web Developer utilizing experience in retail management to identify and execute goals to create an optimal online experience. Recently acquired certificate in Full Stack Web Development from the University of Minnesota — learning skills in HTML, CSS, JavaScript, and MERN stack technologies. Passionate about researching and learning relevant topics to foster personal growth and to expedite reaching project goals. In a recent class project I applied my management skills to help with organizing, prioritizing, and setting goals with a group of three other students to create a MERN app that helps gamers find other gamers to group up with and play together. Excited to test my skills within a fast-paced and ever advancing team to create and improve online experiences.
             </p>
         </section>
     );

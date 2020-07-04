@@ -7,10 +7,20 @@ class BootContent extends Component {
     state = {
         portCard: project
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render() {
         return (
             <main>
+                <h2>
+                    Under Construction
+                </h2>
+                <ul>
+                    <li>
 
+                    </li>
+                </ul>
             </main>
         );
     }
