@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import "./nav.scss";
 import resume from "../../utils/docs/cmresume.pdf";
 
-function Nav() {
+function Nav( {color} ) {
     return (
-        <nav>
+        <nav className={color}>
             <ul className="a-l">
                 <li>
                     <Link to={'/'} className="nav-text">Home</Link>
