@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+.card {
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    max-width: 400px;
+    height: 10%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    h2 {
+        text-align: center;
+        padding: 10px;
+    }
+    img {
+        width: 100%;
+    }
+    .card-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        a {
+            text-decoration: none;
+        }
+    }
+}
