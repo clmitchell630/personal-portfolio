@@ -23,7 +23,6 @@ class BootContent extends Component {
                             link={asset.link}
                             gitLink={asset.gitLink}
                         />))}
-
                 </div>
             </section>
         );
