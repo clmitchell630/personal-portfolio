@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import project from "../../project.json";
+import project from "../../utils/data/data";
 import Card from "../Card";
 
 import "./bootcontent.scss";
-import burger from "../../utils/img/burger.PNG";
 
 class BootContent extends Component {
     state = {
-        burgers: burger
+        project: project
     }
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -16,27 +15,15 @@ class BootContent extends Component {
         return (
             <section>
                 <div>
-                    <Card
-                        img={this.state.burgers}
-                        title="BurgerEater"
-                        description="Simple burger eating app that makes you hungry while playing! Utilizes MySQL, Node.js, npm Express, npm Handlebars, npm mysql, and utilizes Heroku to host. BurgerBurger is an exercise in creating a webapp with a server and a database."
-                        link="https://burgerlist-sql.herokuapp.com/"
-                        gitLink="https://github.com/clmitchell630/burger"
-                    />
-                    <Card
-                        img={this.state.burgers}
-                        title="BurgerEater"
-                        description="Simple burger eating app that makes you hungry while playing! Utilizes MySQL, Node.js, npm Express, npm Handlebars, npm mysql, and utilizes Heroku to host. BurgerBurger is an exercise in creating a webapp with a server and a database."
-                        link="https://burgerlist-sql.herokuapp.com/"
-                        gitLink="https://github.com/clmitchell630/burger"
-                    />
-                    <Card
-                        img={this.state.burgers}
-                        title="BurgerEater"
-                        description="Simple burger eating app that makes you hungry while playing! Utilizes MySQL, Node.js, npm Express, npm Handlebars, npm mysql, and utilizes Heroku to host. BurgerBurger is an exercise in creating a webapp with a server and a database."
-                        link="https://burgerlist-sql.herokuapp.com/"
-                        gitLink="https://github.com/clmitchell630/burger"
-                    />
+                    {this.state.project.map(asset => (
+                        <Card
+                            img={asset.img}
+                            title={asset.title}
+                            description={asset.description}
+                            link={asset.link}
+                            gitLink={asset.gitLink}
+                        />))}
+
                 </div>
             </section>
         );

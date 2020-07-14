@@ -2,18 +2,18 @@ import React from "react";
 
 import "./card.scss";
 
-function Card({ img, title, description, link, gitLink }) {
+const Card = props =>{
     return (
         <div className="card">
-            <img src={img} />
-            <h2>{title}</h2>
-            <p>{description}</p>
+            <img src={props.img} />
+            <h2>{props.title}</h2>
+            <p>{props.description}</p>
             <ul className="card-links">
                 <li>
-                    <a href={link} target="_blank">App</a>
+                    <a href={props.link} target="_blank">App</a>
                 </li>
                 <li>
-                    <a href={gitLink} target="_blank">Github</a>
+                    <a href={props.gitLink} target="_blank">Github</a>
                 </li>
             </ul>
         </div>
