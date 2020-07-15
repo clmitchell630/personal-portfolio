@@ -10,7 +10,7 @@ const data = [
         "title": "Wiki-Werks",
         "link": "https://clmitchell630.github.io/wiki-werks/",
         "gitLink": "https://github.com/clmitchell630/wiki-werks",
-        "img": require ("../../utils/img/portimg/scrape.PNG"),
+        "img": require ("../../utils/img/portimg/wikiwerks.PNG"),
         "description": "First class project. Worked with 3 other classmates to put together a web app. This app takes a search topic and pulls up pages from Wikipedia and vtitleeos from YouTube APIs using the AJAX call and saves your topics to bring up later."
     },
     {
