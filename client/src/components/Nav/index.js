@@ -19,7 +19,7 @@ function Nav( {color} ) {
             </ul>
             <ul className="c-l">
                 <li>
-                    <a href="mailto:clmitchell630@gmail" className="nav-text">E-mail</a>
+                    <a href="mailto:clmitchell630@gmail.com" className="nav-text">E-mail</a>
                 </li>
             </ul>
         </nav>
