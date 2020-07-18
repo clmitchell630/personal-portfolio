@@ -11,7 +11,7 @@ const data = [
         "link": "https://clmitchell630.github.io/wiki-werks/",
         "gitLink": "https://github.com/clmitchell630/wiki-werks",
         "img": require ("../../utils/img/portimg/wikiwerks.PNG"),
-        "description": "First class project. Worked with 3 other classmates to put together a web app. This app takes a search topic and pulls up pages from Wikipedia and vtitleeos from YouTube APIs using the AJAX call and saves your topics to bring up later."
+        "description": "First class project. Worked with 3 other classmates to put together a web app. This app takes a search topic and pulls up pages from Wikipedia and videos from YouTube APIs using the AJAX call and saves your topics to bring up later."
     },
     {
         "title": "Rorschach Clicker",
@@ -25,7 +25,7 @@ const data = [
         "link": "https://news-crepe.herokuapp.com/",
         "gitLink": "https://github.com/clmitchell630/news-s-crepe",
         "img": require ("../../utils/img/portimg/scrape.PNG"),
-        "description": "A gaming news app that scrapes articles from pcgamer to help sort what you want to read!"
+        "description": "A gaming news app that scrapes articles from PCGamer to help sort what you want to read!"
     },
     {
         "title": "BurgerBurger",
@@ -53,7 +53,7 @@ const data = [
         "link": "https://www.youtube.com/watch?v=s076Wo2j3Os&feature=youtu.be",
         "gitLink": "https://github.com/clmitchell630/liri-bot",
         "img": require ("../../utils/img/portimg/liri.PNG"),
-        "description": "By inputting your your favorite artist into liri you can find the venues that they are playing in, where those venues are, and what date/time the event is occuring. If you give liri a track, it will list songs from a variety of arists that meet your search term and give you a link to listen to the song. Finally, if you give liri a movie title, it will list information about the movie from where it was produced to what the ratings for the movie were."
+        "description": "By inputting your your favorite artist into liri you can find the venues that they are playing in, where those venues are, and what date/time the event is occurring. If you give liri a track, it will list songs from a variety of artists that meet your search term and give you a link to listen to the song. Finally, if you give liri a movie title, it will list information about the movie from where it was produced to what the ratings for the movie were."
     },
     {
         "title": "Where's My Train",
@@ -67,7 +67,7 @@ const data = [
         "link": "https://clmitchell630.github.io/gif-in-a-jiff/",
         "gitLink": "https://github.com/clmitchell630/gif-in-a-jiff",
         "img": require ("../../utils/img/portimg/gifjiff.PNG"),
-        "description": "A practive in AJAX calls using the Giphy API to create a page of .gif images responding to a topic stored in a button. Default buttons are provtitleed but you can add more by adding them to the 'MORE GIFS!' field."
+        "description": "A practice in AJAX calls using the Giphy API to create a page of .gif images responding to a topic stored in a button. Default buttons are provided but you can add more by adding them to the 'MORE GIFS!' field."
     },
     {
         "title": "TV Trivia Time!",
@@ -81,7 +81,7 @@ const data = [
         "link": "https://clmitchell630.github.io/unit-4-game/",
         "gitLink": "https://github.com/clmitchell630/unit-4-game",
         "img": require ("../../utils/img/portimg/rupee.PNG"),
-        "description": "A game where you add rupees together to match the randomly generated number. Careful though, you don't know how much each gem is worth and their values change at the begining of each game."
+        "description": "A game where you add rupees together to match the randomly generated number. Careful though, you don't know how much each gem is worth and their values change at the beginning of each game."
     },
     {
         "title": "League of Legends - Hangman",
