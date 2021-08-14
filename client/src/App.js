@@ -2,9 +2,14 @@
 //production version
 
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import pageNoFind from "./utils/img/404.jpg";
+import { ReactComponent as InIcon } from "./utils/img/linkedin.svg";
+import { ReactComponent as GitIcon } from "./utils/img/github.svg";
+import { ReactComponent as MenuOne } from "./utils/img/expand.svg";
+//import { ReactComponent as MenuTwo } from "./utils/img/menutwo.svg";
+
 class App extends Component {
 
   render() {
@@ -29,16 +34,24 @@ export default App;
 
 function Home() {
   return (
-      <div>
-          <Links />
-          <Front />
-      </div>
+    <div>
+      <Nav>
+        <NavItem icon="Home"/>
+        <NavItem href="https://www.linkedin.com/in/clmitchell630/" icon={<InIcon />} />
+        {/* </Nav>
+      <Nav> */}
+        <NavItem href="https://www.github.com/clmitchell630/" icon={<GitIcon />} />
+        <NavItem href="https://www.github.com/clmitchell630/" icon={<MenuOne />} />
+
+      </Nav>
+      <Title />
+    </div>
   )
 }
 
 function Unknown() {
   return (
-      <NotFound />
+    <NotFound />
   );
 }
 
@@ -46,51 +59,49 @@ function Unknown() {
 //COMPONENTS
 //-----------
 
-function Front() {
+function Title() {
   return (
-      <div className="section">
-          <div>
-              <h1>
-                  Chris
-              </h1>
-              <h1>
-                  Mitchell
-              </h1>
-              <h2>
-                  Full-Stack Web Developer
-              </h2>
-          </div>
+    <section className="title">
+      <div>
+        <h1>
+          Chris
+        </h1>
+        <h1>
+          Mitchell
+        </h1>
+        <h2>
+          Full-Stack Web Developer
+        </h2>
       </div>
+    </section>
   );
 }
 
-function Links() {
+function Nav(props) {
   return (
-      <ul className="links-container">
-          <li>
-              <a href="https://www.linkedin.com/in/clmitchell630/" target="_blank" rel="noopener noreferrer" className="link-button">
-                  <i class="fab fa-linkedin-in"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://www.github.com/clmitchell630/" target="_blank" rel="noopener noreferrer" className="link-button">
-                  <i class="fab fa-github"></i>
-              </a>
-          </li>
-          {/* <div>
-              <a>
-                  <i class="fas fa-at"></i>
-              </a>
-          </div> */}
+    <nav className={props.navclass}>
+      <ul className="nav-items">
+        {props.children}
       </ul>
+    </nav>
+  )
+}
+
+function NavItem(props) {
+  return (
+    <li className="nav-link">
+      <a href={props.href} target="_blank" rel="noopener noreferrer" className="icon-button">
+        {props.icon}
+      </a>
+    </li>
   )
 }
 
 function NotFound() {
   return (
-      <main className="not-found">
-          <img src={pageNoFind} alt="404 Page not Found" />
-          <Link to="/"><h5>Back to home</h5></Link>
-      </main>
+    <main className="not-found">
+      <img src={pageNoFind} alt="404 Page not Found" />
+      <Link to="/"><h5>Back to home</h5></Link>
+    </main>
   )
 }

@@ -1,31 +1,114 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
+:root {
+  --bg: #4f97a3;
+  --bg-highlight: #64b6c5;
+  --header-color: #2f5b63;
+  --text-color: whitesmoke;
+  --speed: 500ms;
+  --nav-size: 60px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  //background-image: url("./utils/img/backgroundImage.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  //background-color: #003152;
-  background-color: #4f97a3;
-  //background-color: #f5f5f5;
+  background-color: var(--bg);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
 
 //-----------------
 //Component Styles
 //-----------------
+
+.navbar {
+  height: var(--nav-size);
+  padding: 0.5rem 1rem;
+  
+}
+
+.nav-items {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-items svg {
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px;
+}
+
+.nav-link {
+  width: calc(var(--nav-size) * 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button {
+  --button-size: calc(var(var(--nav-size) * 0.5));
+  width: var(--button-size);
+  height: var(--button-size);
+  border-radius: 50%;
+  padding: 6px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms;
+  
+}
+.icon-button:hover {
+    background-color: var(--bg-highlight);
+    color: var(--text-color);
+  }
+.title {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  div {
+    //border: 2px solid whitesmoke;
+    padding: 0 10px;
+
+    h1 {
+      font-size: 8rem;
+      color: var(--header-color);
+      //font-family:'Courier New', Courier, monospace;
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: bolder;
+      //text-shadow: 5px 0 8px #477881, 0 5px 8px #477881, -3px 0 3px #7ccbda, 0 -3px 3px #7ccbda;
+      margin-bottom: 0;
+      line-height: 7rem;
+    }
+
+    h2 {
+      padding-left: 6px;
+      font-size: 2rem;
+      color: var(--text-color);
+      font-weight: bolder;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+  }
+}
 
 .not-found {
   padding-top: 5%;
@@ -40,60 +123,5 @@ code {
     @media (max-height: 760px) {
       max-height: 80vh;
     }
-  }
-}
-
-.section {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  div {
-      //border: 2px solid whitesmoke;
-      padding: 0 10px;
-
-      h1 {
-          font-size: 8rem;
-          color: #6ccbdb;
-          //font-family:'Courier New', Courier, monospace;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: bolder;
-          //text-shadow: 5px 0 8px #477881, 0 5px 8px #477881, -3px 0 3px #7ccbda, 0 -3px 3px #7ccbda;
-          margin-bottom: 0;
-      }
-      
-      h2 {
-          padding-left: 6px;
-          font-size: 2rem;
-          color: whitesmoke;
-          font-weight: bolder;
-          font-family: Helvetica, Arial, sans-serif;
-      }
-  }
-}
-
-.links-container {
-  position: fixed;
-  top: 2%;
-  right: 1%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
- 
-  div {
-      line-height: 0;
-      margin: 5px;
-      
-      :hover {
-          color: #6ccbdb;
-      }
-      .link-button {
-          text-decoration: none;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 1.5rem;
-          color: whitesmoke;
-      }
   }
 }
